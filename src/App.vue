@@ -287,7 +287,7 @@ body {
 }
 
 #firstview {
-  height: 100%;
+  height: 80vw;
   background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;

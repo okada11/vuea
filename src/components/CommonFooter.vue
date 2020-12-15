@@ -22,6 +22,7 @@
   height: 80px;
   text-align: center;
   line-height: 80px;
+  background-color: black;
 }
 
 .footer-wrap {
