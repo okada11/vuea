@@ -51,6 +51,13 @@
 .header-nav a {
   color: #f2f2f2;
 }
+
+small {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 @media screen and  (max-width: 768px) {
   .header-nav {
     display: none;

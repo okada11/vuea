@@ -225,7 +225,7 @@ img {
 }
 
 body {
-  color: #333333;
+  color: #000000;
   height: 100%;
 }
 
@@ -287,7 +287,7 @@ body {
 }
 
 #firstview {
-  height: 80vw;
+  height: 35rem;
   background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -351,6 +351,7 @@ body {
 .mission-content {
   padding: 10% 0 10% 20%;
   box-sizing: border-box;
+  width: 70%;
 }
 
 .mission_title,
@@ -366,8 +367,8 @@ body {
 .mission-img {
   width: 40%;
   position: absolute;
-  bottom: -10%;
-  right: 5%;
+  bottom: 88%;
+  right: 2%;
   z-index: -999;
 }
 
