@@ -344,7 +344,6 @@ body {
 .mission {
   position: relative;
   background: black;
-  margin-bottom: 10%;
   z-index: 999;
 }
 
