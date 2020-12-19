@@ -12,29 +12,28 @@
           <li><a href="#">contact</a></li>
         </ul>
       </nav>
-      <small>Copyright 2019 estra inc.All Rights Reserved.</small>
     </div>
+    <small>Copyright 2019 estra inc.All Rights Reserved.</small>
   </footer>            
 </template>
 
 <style scoped>
 #footer {
-  height: 80px;
+  height: 120px;
   text-align: center;
-  line-height: 80px;
   background-color: black;
 }
 
 .footer-wrap {
-  display: flex;
   justify-content: space-between;
+  display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header-logo {
   font-size: 20px;
   font-weight: bold;
-  margin-left: 35px;
   color: #f2f2f2;
   line-height: 70px;
 }
@@ -44,6 +43,7 @@
 }
 
 .header-nav li {
+  display: inline-block;
   margin-right: 35px;
   font-size: 16px;
 }
@@ -53,24 +53,28 @@
 }
 
 small {
-  display: block;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   color: white;
 }
 @media screen and  (max-width: 768px) {
-  .header-nav {
+ .header-nav {
     display: none;
   }
 
   small {
     display: none;
+    
   }
 
   .footer-wrap {
-    display: flex;
+    display: inline-block;
+    text-align: center;
     justify-content: center;
     align-items: center;
-  }
+ }
+ #footer {
+   
+   text-align: center;
+ }
 }
 </style>

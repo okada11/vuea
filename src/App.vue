@@ -28,8 +28,9 @@
         </div>
         <div class="mission-img">
           <img src="../img/mission-img.jpg" alt="" />
-        </div> 
-         <div class="service">
+        </div>
+      </div> 
+      <div class="service">
         <h2 class="service-title section-title">service</h2>
         <div class="service-content">
           <div class="service-img">
@@ -88,10 +89,8 @@
         </p>
         <a href="" class="common-btn contact-btn">お問い合わせへ</a>
       </div>
-      </div>
     </main>      
-
-    <CommonFooter></CommonFooter>
+     <CommonFooter></CommonFooter>
   </div>  
 </template>
 
@@ -343,7 +342,8 @@ body {
 /*------------------------*/
 .mission {
   position: relative;
-  background: black;
+  background: rgb(0, 0, 0);
+  height: 30rem;
   z-index: 999;
 }
 
@@ -366,7 +366,7 @@ body {
 .mission-img {
   width: 40%;
   position: absolute;
-  bottom: 88%;
+  bottom: 10%;
   right: 2%;
   z-index: -999;
 }
